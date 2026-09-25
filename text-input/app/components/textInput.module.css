@@ -1,0 +1,21 @@
+.squares {
+  margin: auto;
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border: 2px solid black;
+}
+.square:focus {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 0;
+  font-size: 8px;
+}
+.square {
+  margin: 3px;
+  width: 80px;
+  height: 10px;
+  border: 1px solid black;
+}
