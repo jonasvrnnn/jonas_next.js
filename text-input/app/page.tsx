@@ -4,7 +4,7 @@ import "./global.css";
 const App = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <TextInput size={4} />
+      <TextInput size={10} />
     </div>
   );
 };
